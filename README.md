@@ -1,5 +1,6 @@
 # Auto-Fill-Certificates
 You can use this program for auto filling your certificates for your student, participant etc. BUT I WANT YOU TO KNOW IT VERY SLOW!!
+Right now it take 0.6044 second for 1 file
 How to use this program
 1. Press the new button on the top left corner and then press NEW
 2. Select your certificate template
