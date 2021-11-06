@@ -105,7 +105,6 @@ def spot(event):
 
         for run_key in able_key:
             if run_key != column_combo.get():
-                print(1)
                 img_draw = ImageDraw.Draw(img_show)
                 the_font = ImageFont.truetype(font=font_dict[run_key], size=size_dict[run_key])
                 img_draw.text(unscaled_pos_dict[run_key], run_key, color_dict[run_key],font=the_font
