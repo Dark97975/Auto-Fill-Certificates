@@ -12,4 +12,4 @@ Right now it take 0.6044 second for 1 file
 4. Select the column that you want to place on your certificate by changing the 'selected column' dropbox/combobox
 5. Fill all the blank dropbox/combobox
 6. Click on the picture that is displaying on program where you want your selected column to be placed
-7. When you finish placing your data you can press the 'save' button and select your save folder and wait(2 columns with 20 rows each, using about 0.5 second for one file)
+7. When you finish placing your data you can press the 'save' button and select your save folder and wait
