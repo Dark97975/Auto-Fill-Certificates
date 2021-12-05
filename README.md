@@ -2,6 +2,7 @@
 You can use this program for auto filling your certificates for your student, participant etc. And I wanted you to know that this program is REALLY SLOW!
 Right now it take 0.6044 second for 1 file
 - How to use this program
+  Watch manual video here >> https://youtu.be/M4LXl3ZHKlU
 1. Press the 'file' button on the top left corner and then press 'new'
 2. Select your certificate template
 3. Select your data file (you can download my test data for testing)
