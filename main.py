@@ -30,8 +30,6 @@ text_dict = {}
 full_fontname = {}
 
 size = 20
-mid_x = 400
-mid_y = 225
 
 color = (255,255,255,255)
 
@@ -169,9 +167,6 @@ def draw():
             result.text((int(pos_dict[j][0]), int(pos_dict[j][1])), str(text_dict[j][i]), color_dict[j]
                         ,font=font, anchor=align_dict[j])
         img.save(f'{save_folder_path}/{i+1}.png')
-        print(f'save {i+1} successfully')
-    print(f'Save at {save_folder_path}')
-    print('done!')
     status_label = ttk.Label(win,text = f'Done!',anchor = 'w')
     status_label.place(x = 649,y = 332.5,height = 25,width = 146)
 # collect all fonts from device and create font list with no format for display
