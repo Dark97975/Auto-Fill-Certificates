@@ -4,7 +4,6 @@ Right now it take 0.6044 second for 1 file
 - How to use this program
 1. Press the 'file' button on the top left corner and then press 'new'
 2. Select your certificate template
-- Your template have to be A4
 3. Select your data file (you can download my test data for testing)
 - Your data file have to be .xlsx
 - Your data should not have blank row or blank column in it
