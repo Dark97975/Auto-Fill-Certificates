@@ -150,7 +150,7 @@ def set_dict():
         font_dict[key] = using_font
         size_dict[key] = size
         color_dict[key] = color
-        unscaled_pos_dict[key] = (pos[0]*(487 / width),pos[1]*(344 / height))
+        unscaled_pos_dict[key] = (pos[0]//ratio,pos[1]//ratio)
 # create and save image
 def draw():
     status_label = ttk.Label(win, text='Now Saving Pleas Wait...', anchor='w')
@@ -167,6 +167,9 @@ def draw():
             result.text((int(pos_dict[j][0]), int(pos_dict[j][1])), str(text_dict[j][i]), color_dict[j]
                         ,font=font, anchor=align_dict[j])
         img.save(f'{save_folder_path}/{i+1}.png')
+        print(f'save {i+1} successfully')
+    print(f'Save at {save_folder_path}')
+    print('done!')
     status_label = ttk.Label(win,text = f'Done!',anchor = 'w')
     status_label.place(x = 649,y = 332.5,height = 25,width = 146)
 # collect all fonts from device and create font list with no format for display
@@ -193,7 +196,7 @@ canvas = Canvas(win,width = 800,height = 450)
 canvas.place(x = 0,y = 0)
 rect = canvas.create_rectangle(157,38,644,382,outline = 'black')
 # place mockup image
-display = ttk.Label(win,text = 'emty',anchor = 'center')
+display = Label(win,text = 'emty',anchor = 'center')
 display.place(x = 390,y = 205)
 
 # create  abd place label
